@@ -73,7 +73,7 @@ object HUD : Module() {
         )
         width += mc.fontRendererObj.getStringWidth("FDP")
         mc.fontRendererObj.drawStringWithShadow(
-            "CLIENT",
+            "Nextgen",
             width.toFloat(),
             3.0f,
             -1
@@ -85,7 +85,7 @@ object HUD : Module() {
         LiquidBounce.hud.update()
         if (mc.currentScreen == null && lastFontEpsilon != fontEpsilonValue.get()) {
             lastFontEpsilon = fontEpsilonValue.get()
-            alert("You need to reload FDPClient to apply changes!")
+            alert("You need to reload FDP to apply changes!")
         }
     }
 

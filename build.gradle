@@ -14,9 +14,9 @@ repositories {
     maven { url = "https://jitpack.io/" }
 }
 
-version = "5.1.0"
+version = "b1"
 group = "org.unlegitmc.fdp"
-archivesBaseName = "FDPClient"
+archivesBaseName = "FDPNextgen"
 
 sourceCompatibility = targetCompatibility = 1.8
 compileJava.options.encoding = "UTF-8"

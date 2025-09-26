@@ -39,12 +39,12 @@ object LiquidBounce {
 
     // Client information
 
-    const val CLIENT_NAME = "FDPClient"
+    const val CLIENT_NAME = "FDPNextgen"
 
     var Darkmode = true
-    const val COLORED_NAME = "§7[§b§lFDPClient§7] "
-    const val CLIENT_CREATOR = "CCBlueX, Zywl & SkidderMC TEAM"
-    const val CLIENT_WEBSITE = "fdpinfo.github.io"
+    const val COLORED_NAME = "§7[§b§lFDPNextgen§7] "
+    const val CLIENT_CREATOR = "CCBlueX, Zywl & SkidderMC TEAM, Dinnerb0ne"
+    const val CLIENT_WEBSITE = ""
     
     @JvmField
     val gitInfo = Properties().also {
@@ -58,7 +58,7 @@ object LiquidBounce {
 
     @JvmField
 
-    val CLIENT_VERSION = "v5.3.0"
+    val CLIENT_VERSION = "beta 1.0"
 
 
     @JvmField
